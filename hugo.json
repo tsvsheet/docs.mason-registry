@@ -1,0 +1,22 @@
+{
+  "baseURL": "https://tsvsheet.github.io/docs.mason-registry/",
+  "title": "mason-registry",
+  "publishDir": "_site",
+  "enableRobotsTXT": true,
+  "markup": {
+    "goldmark": {
+      "renderHooks": {
+        "link": {
+          "useEmbedded": "fallback"
+        },
+        "image": {
+          "useEmbedded": "fallback"
+        }
+      }
+    }
+  },
+  "params": {
+    "description": "The mason.nvim registry for tsvsheet tooling.",
+    "mainSite": "https://tsvsheet.com"
+  }
+}
